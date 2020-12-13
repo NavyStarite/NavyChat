@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">
+  <title>CHAT CON SOCKETS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="socket.io.js"></script>
+  <script src="js/logic.js"></script>
+  <script src="main.js"></script>
+</head>  
+<body>
+  <center><h1>CHAT CON SOCKETS EN NODE JS</h1></center>
+<div class="container">
+  <div class="row">
+    <div class="col-8" id="messages">
+
+
+      <div id="anchor"></div>
+    </div>
+    <div class="col-2" id="Formulario">
+      <form onsubmit="return addMessage(this)">
+        <div class="form-group">
+          <label for="username">Nombre</label>
+          <input type="text" id="username" placeholder="Tu Nombre" >
+        </div>
+        <div class="form-group">
+          <label for="texto">Mensaje</label>
+          <input type="text" id="texto" placeholder="Mensaje...">
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Enviar!">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>  
+</html>

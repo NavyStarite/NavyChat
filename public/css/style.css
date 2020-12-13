@@ -1,0 +1,31 @@
+#Formulario, #messages, #MPane, body{
+    border: 5px inset #00A9A5;
+    border-radius: 40px 40px 40px 40px;
+    border-color: cadetblue;
+}
+body {
+    background-color:  #0B4F6C;
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+}
+#Formulario{
+    background-color: #FBFBFF;
+    min-width: 240px;
+
+}
+#anchor {
+    height: 1px;
+}
+#messages{
+    overflow-x: hidden;
+    background-color: #20BF55;
+    overflow-y: scroll;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y proximity;
+    height:80vh;
+}
+#MPane{
+    padding: 5px;
+    background-color: #01BAEF;
+}
