@@ -1,8 +1,18 @@
 {
-    "name": "chatting-navy",
-    "description": "Chat en nodejs",
-    "version": "1.0.0",
-    "engines": {
-      "node": "12.x"
-    }
-  }
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "None",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "test\" : \"echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "author": "Navy",
+  "license": "ISC"
+}
